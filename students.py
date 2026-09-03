@@ -1,6 +1,7 @@
 import dataclasses
 from dataclasses import dataclass
 
+# A dataclass automatically adds methods to your code
 @dataclass
 class Student:
         name: str
