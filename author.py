@@ -17,14 +17,14 @@ class Author:
 
 # Call and test above methods
 def main():
-    tolkien = Author("J.R.R Tolkien")
-    tolkien.publish("The Hobbit")
-    tolkien.publish("The Fellowship of the Ring")
+    shakespeare = Author('William Shakespeare')
+    shakespeare.publish('Hamlet')
+    shakespeare.publish('Romeo and Juliet')
 
     rowling = Author("J.K. Rowling")
     rowling.publish("The Prisoner of Azkaban")
 
-    print(tolkien)
+    print(shakespeare)
     print(rowling)
 
 if __name__ == "__main__":
